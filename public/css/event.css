@@ -101,8 +101,8 @@ main {
 
 /***section1***/
 .event_sec1 {
-    margin-top: 80px;
-    margin-bottom: 170px;
+    padding-top: 80px;
+    padding-bottom: 170px;
 }
 .event_sec1 * {
     font-family: 'NanumBarunGothic';

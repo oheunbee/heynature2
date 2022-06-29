@@ -12,14 +12,15 @@ main {
 }
 .w1200 {
     width: 1200px;
+    background-color: #FFFEFC;
 }
 
 /***log_main_wrap***/
 .log_main_wrap {
     max-width: 400px;
-    margin: 100px auto 70px;
-    padding: 100px 0;
-    box-sizing: border-box;
+    padding: 200px 0 170px;
+    margin: 0 auto;
+
 }
 .log_main_wrap>h2 {
     margin-bottom: 20px;

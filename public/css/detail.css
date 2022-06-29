@@ -134,6 +134,8 @@ main{
   line-height: 18px;
   width: 50px;
   top: -35%;
+  /* left: 40%; */
+  z-index: 800;
   right: 80px;
 }
 
@@ -328,7 +330,7 @@ input[name="sum2"]{
   margin: 0 auto;
   padding: 16px 0;
   box-sizing: border-box;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   font-size: 12px;
 }
 
@@ -343,14 +345,14 @@ input[name="sum2"]{
 
 .product_photoreviews_contents{
   height: 145px;
-  margin-top: 1.5em;
+  margin-top: 10px;
   background: #FFFEFC;
 }
 
 .product_photoreviews_contents>ul{
   display: flex;
   justify-content: space-around;
-  margin-top: 1.5em;
+  margin-top: 30px;
 }
 
 .product_photoreviews_contents>li{
@@ -481,7 +483,7 @@ input[name="sum2"]{
 .product_photoreviews_contents>ul>li:nth-child(8)::before{
   display: block;
   content: "";
-  width: 145px;
+  width: 100%;
   padding-top: 100%;
   background-color: rgb(0, 0, 0, 0.7);
   position: absolute;
@@ -505,7 +507,6 @@ input[name="sum2"]{
 
 .product_nav_wrap{
   width: 100%;
-  margin-bottom: 90px;
 }
 
 .product_nav{
@@ -564,7 +565,7 @@ input[name="sum2"]{
 
 
 .picture_wrap{
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .picture_wrap>div{
@@ -880,6 +881,7 @@ input[name="sum2"]{
 .product_review_bottom{
   display: flex;
   position: relative;
+  padding-bottom: 170px;
 }
 
 .product_review_btnbox{
@@ -956,6 +958,7 @@ input[name="sum2"]{
 
 .product_delivery_wrap{
   width: 100%;
+  padding-bottom: 170px;
 }
 
 .product_delivery_title{
@@ -992,11 +995,11 @@ input[name="sum2"]{
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 500ms;
   display:none;
-  z-index: 1000;
+  z-index: 1222;
 }
 
 .detail_title_box {
-  padding: 10px 20px;
+  padding: 15px 20px;
   box-sizing: border-box;
 }
 .detail_title_box>h4 {
@@ -1032,9 +1035,9 @@ input[name="sum2"]{
 .event_box>.close {
   color: #fff;
   font-size: 25px;
-  font-weight: bold;
-  float: right;
-  padding: 10px 20px;
+  top: 10px;
+  right: 5px;
+  padding: 10px;
   width: 20px;
   height: 20px;
   cursor: pointer;
@@ -1042,7 +1045,7 @@ input[name="sum2"]{
 
 .con_box2 {
     width: 100%;
-    padding: 20px 20px 50px ;
+    padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-sizing: border-box;
@@ -1070,7 +1073,7 @@ input[name="sum2"]{
   background-size: 100% auto;
 }
 .ev_img{
-  background-image: url(../img/lee/20170913223907.jpg);
+  background-image: url(../img/lee/lotion_1.jpg);
 }
 /* .event_notice_img_wrap2{
   margin: auto;
@@ -1101,7 +1104,7 @@ input[name="sum2"]{
 }
 .detail_title_box {
   width: 100%;
-  padding: 10px 20px;
+  padding: 15px 20px;
   padding-right: 50px;
   box-sizing: border-box;
 }
@@ -1768,7 +1771,7 @@ span.star-prototype > * {
   }
 
   .product_photoreviews_contents>ul>li:nth-child(8)::before{
-      width: 110px;
+      width: 100%;
   }
 
   .product_review_btnbox>button>a{
@@ -1781,10 +1784,6 @@ span.star-prototype > * {
 
   .pr_option dt dt{
     font-size: 12px;
-  }
-
-  .product_totalprice_middle{
-    left: 50%;
   }
 
   .event_box{
@@ -1900,6 +1899,10 @@ span.star-prototype > * {
       margin-left: 5px;
   }
 
+  .product_photoreviews{
+    margin-bottom: 76px;
+  }
+
   .product_photoreviews_w768_display{
       display: block;
       width: 100%;
@@ -1908,7 +1911,9 @@ span.star-prototype > * {
 
   .product_photoreviews_contents{
       overflow-x: auto;
+      margin-top: 0px;
       height: 100%;
+
   }
 
   .product_photoreviews_contents>ul{
@@ -1985,11 +1990,6 @@ span.star-prototype > * {
 
   .product_delivery_right_bottom>p{
       font-size: 12px;
-  }
-
-  .product_totalprice_middle{
-    left: 200px;
-    z-index: 99;
   }
 
   .review_write_wrap{

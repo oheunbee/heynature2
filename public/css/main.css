@@ -432,7 +432,7 @@ transition: transform 0.8s ease-in-out;
     left:50%;
     transform:translateX(-50%) translateY(-50%);
     background-color: #222;
-    border: 1px solid rgba(333,333,333,0.7);
+    border: 2px solid rgba(333,333,333,0.8);
     opacity: 0.2;
 } 
 .panel7{
