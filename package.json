@@ -12,7 +12,24 @@
     "static": "^2.0.0"
   },
   "scripts": {
-    "start" : "node ./bin/www.js"
-  }
-  
+    "start": "node ./bin/www.js"
+  },
+  "name": "heynature2",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": {
+    "heynature2": "bin/www.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oheunbee/heynature2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oheunbee/heynature2/issues"
+  },
+  "homepage": "https://github.com/oheunbee/heynature2#readme",
+  "description": ""
 }
